@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "expo": "^51.0.38"
-  },
-  "devDependencies": {
-    "@tsconfig/react-native": "^3.0.5"
-  }
-}
