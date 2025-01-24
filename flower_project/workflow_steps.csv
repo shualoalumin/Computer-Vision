@@ -1,0 +1,9 @@
+Step (KOR),Step (ENG),Main Task
+1. 데이터 로드,1. Load Data,tf_flowers 데이터셋 로드 및 전처리 파이프라인 구성
+2. 이미지 리사이징 및 증강,2. Resize & Augment,이미지를 224x224 크기로 리사이즈 및 Albumentations 증강 적용
+3. 데이터셋 분할,3. Split Dataset,훈련/검증/테스트 세트로 나누기 및 배치 준비
+4. Functional API 활용,4. Use Functional API,Functional API를 사용하여 유연하고 확장 가능한 모델 설계
+5. 베이스 모델 설정,5. Set Base Model,사전 학습된 Vision Transformer 로드 및 freeze 설정
+6. FC 레이어 쌓기,6. Add FC Layers,GlobalAveragePooling2D와 추가 Dense 레이어 쌓기
+7. 프리징 → 언프리징,7. Freeze → Unfreeze,초기 프리징 후 특정 레이어를 점진적으로 언프리징
+8. 파인 튜닝 + 자동화,8. Fine-Tune + Automation,"W&B Sweep으로 Dense 레이어 크기, 브랜칭 구조 등 자동 실험"
